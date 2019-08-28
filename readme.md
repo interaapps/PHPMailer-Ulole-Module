@@ -7,7 +7,7 @@ conf.json
 ```json
 {
     "modules": {
-        "github:phpmailer": "https://github.com/interaapps/phpmailer-ulole-module"
+        "github:phpmailer": "https://github.com/interaapps/PHPMailer-Ulole-Module"
     }
 }
 
