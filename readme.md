@@ -3,13 +3,8 @@
 This is simple implimitation of [PHPMailer](https://github.com/PHPMailer/PHPMailer) made by Marcus Bointon, Jim Jagielski, Andy Prevost and Brent R. Matzelle (The names are by the README.md from 28 August 2019) for the ulole-framework
 
 ## Getting started
-conf.json
-```json
-{
-    "modules": {
-        "github:phpmailer": "https://github.com/interaapps/PHPMailer-Ulole-Module"
-    }
-}
+```bash
+php uppm install phpmailer
 
 ```
 
@@ -35,9 +30,4 @@ if ($mail->send())
 else 
     die("".$mail->ErrorInfo); 
 
-```
-
-Then execute this in the console of the directory of your ulole project:
-```bash
-php cli modules install
 ```
